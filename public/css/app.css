@@ -1,0 +1,18 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    max-width: 600px;
+    margin: auto;
+}
+article {
+    margin: 10px 5px;
+    padding: 10px 0px;
+}
+
+article h1 {
+    margin: 10px 0px;
+}
