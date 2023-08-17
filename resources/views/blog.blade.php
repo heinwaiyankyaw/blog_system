@@ -9,8 +9,7 @@
 </head>
 <body>
     <article>
-        <h1>First Blog</a></h1>
-        <p>Est culpa ipsum aute voluptate aliqua nulla labore sunt dolore id labore. Duis mollit proident aliquip nostrud culpa sint aliqua consequat ex. Magna adipisicing excepteur aute deserunt aliqua mollit duis veniam dolore. Ipsum amet aute nisi id quis. Velit exercitation pariatur culpa ut veniam. Pariatur ut sunt cupidatat sint qui ut aute.</p>
+        <?= $blog ?>
     </article>
     <a href="/">Go Back</a>
 </body>

@@ -9,15 +9,15 @@
 </head>
 <body>
     <article>
-        <h1><a href="/blog">First Blog</a></h1>
+        <h1><a href="/blogs/first-blog">First Blog</a></h1>
         <p>Est culpa ipsum aute voluptate aliqua nulla labore sunt dolore id labore. Duis mollit proident aliquip nostrud culpa sint aliqua consequat ex. Magna adipisicing excepteur aute deserunt aliqua mollit duis veniam dolore. Ipsum amet aute nisi id quis. Velit exercitation pariatur culpa ut veniam. Pariatur ut sunt cupidatat sint qui ut aute.</p>
     </article>
     <article>
-        <h1><a href="/blog">Second Blog</a></h1>
+        <h1><a href="/blogs/second-blog">Second Blog</a></h1>
         <p>Est culpa ipsum aute voluptate aliqua nulla labore sunt dolore id labore. Duis mollit proident aliquip nostrud culpa sint aliqua consequat ex. Magna adipisicing excepteur aute deserunt aliqua mollit duis veniam dolore. Ipsum amet aute nisi id quis. Velit exercitation pariatur culpa ut veniam. Pariatur ut sunt cupidatat sint qui ut aute.</p>
     </article>
     <article>
-        <h1><a href="/blog">Third Blog</a></h1>
+        <h1><a href="/blogs/third-blog">Third Blog</a></h1>
         <p>Est culpa ipsum aute voluptate aliqua nulla labore sunt dolore id labore. Duis mollit proident aliquip nostrud culpa sint aliqua consequat ex. Magna adipisicing excepteur aute deserunt aliqua mollit duis veniam dolore. Ipsum amet aute nisi id quis. Velit exercitation pariatur culpa ut veniam. Pariatur ut sunt cupidatat sint qui ut aute.</p>
     </article>
 
