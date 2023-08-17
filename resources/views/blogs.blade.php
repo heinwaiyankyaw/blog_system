@@ -9,7 +9,8 @@
 </head>
 <body>
     <?php foreach ($blogs as $blog) :?>
-    <?= $blog?>
+    <h1><a href="/blogs/<?= $blog->slug ?>"><?= $blog->title?></a></h1>
+    <p><?= $blog->intro ?></p>
     <?php endforeach;?>
 </body>
 </html>
