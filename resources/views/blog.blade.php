@@ -9,8 +9,9 @@
 </head>
 <body>
     <article>
-        <h1><?= $blog->title; ?></h1>
-        <p><?=$blog->body; ?></p>
+        <h1>{{ $blog->title; }}</h1>
+        <small>Published Date :{{ $blog->date; }} </small>
+        <p>{{ $blog->body; }}</p>
     </article>
     <a href="/">Go Back</a>
 </body>

@@ -8,9 +8,10 @@
     <link rel="stylesheet" href="/css/app.css">
 </head>
 <body>
-    <?php foreach ($blogs as $blog) :?>
-    <h1><a href="/blogs/<?= $blog->slug ?>"><?= $blog->title?></a></h1>
-    <p><?= $blog->intro ?></p>
-    <?php endforeach;?>
+    @foreach ($blogs as $blog)
+    <h1><a href="/blogs/{{ $blog->slug }}">{{ $blog->title }}</a></h1>
+    <small>Published Date : {{ $blog->date }}</small>
+    <p>{{ $blog->intro }}</p>
+    @endforeach
 </body>
 </html>
