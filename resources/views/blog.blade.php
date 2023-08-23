@@ -5,7 +5,7 @@
 @section('content')
 <div>
     <h1>{{ $blog->title; }}</h1>
-    <small>Published Date :{{ $blog->date; }} </small>
+    <small>Published Date : {{ $blog->created_at->diffForHumans() }} </small>
     <p>{!! $blog->body; !!}</p>
 </div>
 <a href="/">Go Back</a>
