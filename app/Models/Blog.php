@@ -8,4 +8,7 @@ use Illuminate\Database\Eloquent\Model;
 class Blog extends Model
 {
     use HasFactory;
+    protected $guarded = ['id']; //opposite of fillable
+
+    // protected $fillable = ['title', 'intro', 'body'];
 }
