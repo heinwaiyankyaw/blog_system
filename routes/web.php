@@ -1,6 +1,7 @@
 <?php
 
 use App\Models\Blog;
+use App\Models\User;
 use App\Models\Category;
 use Illuminate\Support\Facades\Route;
 
@@ -20,5 +21,12 @@ Route::get('/blogs/{blog:slug}', function (Blog $blog) {
 Route::get('/categories/{category:slug}', function (Category $category) {
     return view('blogs', [
         'blogs' => $category->blogs
+    ]);
+});
+
+
+Route::get('/users/{user:slug}', function (User $user) {
+    return view('blogs', [
+        'blogs' => $user->blogs
     ]);
 });

@@ -17,6 +17,7 @@ class UserFactory extends Factory
         return [
             'user_name' => $this->faker->name(),
             'email' => $this->faker->unique()->safeEmail(),
+            'slug' => $this->faker->unique()->slug(),
             'is_admin' => $this->faker->boolean(),
             'password' => '$2y$10$92IXUNpkjO0rOQ5byMi.Ye4oKoEa3Ro9llC/.og/at2.uheWG/igi', // password
         ];
