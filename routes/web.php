@@ -8,7 +8,7 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
 
     return view('blogs', [
-        'blogs' => Blog::with('category')->get()
+        'blogs' => Blog::latest()->get()
     ]);
 });
 
@@ -25,7 +25,8 @@ Route::get('/categories/{category:slug}', function (Category $category) {
 });
 
 
-Route::get('/users/{user:slug}', function (User $user) {
+Route::get('/users/{user:user_name}', function (User $user) {
+    // dd($username->blogs);
     return view('blogs', [
         'blogs' => $user->blogs
     ]);
